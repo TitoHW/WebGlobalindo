@@ -1,0 +1,87 @@
+body{
+	background-color:#f9f9f9;
+	font-size:16px
+	color:#444;
+	font-family: sans-serif;
+}
+ 
+.content{
+	width: 100%;
+	margin: 20px;
+}
+
+.content p{
+    font-size: 40px;
+    font-weight: bold;
+    color: #87CEFA;
+}
+ 
+/*header*/
+header{
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+ 
+header h1.judul{
+	text-align: center;	
+}
+ 
+/*menu navigasi*/
+.navbar{
+	background-color: #87CEFA;
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;	
+	margin-bottom: auto;
+}
+ 
+div.navbar ul {
+	list-style:none;
+	overflow: hidden;
+}
+ 
+ 
+div.navbar ul li {
+	float:right;		
+    text-transform:uppercase;
+
+}
+ 
+div.navbar ul li a {
+	display:block;	
+	padding:20px;
+	text-decoration:none;
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
+}
+ 
+div.navbar ul li a:hover,
+div.navbar ul li a.hoverover {	
+	cursor: pointer;	
+	color:#fff;
+}
+ 
+div.isi{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+ 
+div.halaman{
+	text-align: center;
+	padding: 30px 20px;	
+}
+
+div.achievementContent{
+    text-align: center;
+}
+
+div.loginForm{
+    text-align: center;
+}
